@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "How to start Web Dev",
+      "body": "Web development is an exciting field that offers a vast range of opportunities for those who want to build a career in the tech industry. With the growing demand for online presence and web-based applications, the need for skilled web developers is on the rise. If you're interested in starting a career in web development, here's a beginner's guide to help you get started.",
+      "author": "RezaBarzakhi",
+      "date": "2023/04/1"
+    },
+    {
+      "id": 2,
+      "title": "VS Code Extentions I Use",
+      "body": "Web development is an exciting field that offers a vast range of opportunities for those who want to build a career in the tech industry. With the growing demand for online presence and web-based applications, the need for skilled web developers is on the rise. If you're interested in starting a career in web development, here's a beginner's guide to help you get started.",
+      "date": "2023/04/1",
+      "author": "RezaBarzakhi"
+    },
+    {
+      "id": 3,
+      "title": "what is React.Js",
+      "body": "Web development is an exciting field that offers a vast range of opportunities for those who want to build a career in the tech industry. With the growing demand for online presence and web-based applications, the need for skilled web developers is on the rise. If you're interested in starting a career in web development, here's a beginner's guide to help you get started.",
+      "date": "2023/04/1",
+      "author": "RezaBarzakhi"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}

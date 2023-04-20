@@ -1,0 +1,61 @@
+.projects {
+  padding: 1rem;
+  color: #fff;
+  margin-top: 3rem;
+}
+
+.projectsTitle {
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.project {
+  border-radius: 8px;
+  background-color: #1c2c35;
+  padding: 3rem;
+}
+.projectTop {
+  border-left: 7px solid #cca9f4;
+}
+
+.projectTitle {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 1rem;
+  color: #ecf8ff;
+}
+
+.projectDescription {
+    /* position: relative; */
+  /* width: 80%; */
+  margin-bottom: 4rem;
+  font-weight: 400;
+  font-size: 16px;
+  color: #c9e2f0;
+}
+
+.projectLinkBtn {
+  padding: 1rem 2rem;
+  border: 2px solid rgba(124, 201, 255, 0.41);
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ecf8ff;
+}
+.projectsBottom {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.projectBottonLeft {
+    flex: 1;
+     border-left: 7px solid #81F59B;
+    }
+    .projectBottonRight {
+        flex: 1;
+        border-left: 7px solid #D9534D;
+
+}

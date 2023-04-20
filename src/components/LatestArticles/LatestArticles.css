@@ -1,0 +1,23 @@
+.latestArticles {
+  padding: 1rem;
+  margin-top: 5rem;
+  color: #ecf8ff;
+}
+.latestArticlesTitle {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 4rem;
+}
+.latestArticlesPost {
+  margin-bottom: 2rem;
+}
+.latestsArticlesPostTitle {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+.latestsArticlesPostDate {
+  color: #5e8ca7;
+  font-weight: 400;
+  font-size: 12px;
+}

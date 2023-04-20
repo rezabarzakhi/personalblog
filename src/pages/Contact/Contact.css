@@ -1,0 +1,51 @@
+.contact {
+  margin: 2rem;
+}
+
+.formControl {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+}
+.formInputLable {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #7ab6d9;
+  margin-bottom: 1rem;
+}
+.formInput {
+  border: 1px solid #1c2c35;
+  background-color: transparent;
+  height: 4rem;
+  border-radius: 8px;
+  padding: 2rem;
+  font-size: 1.6rem;
+  color: #7ab6d9;
+}
+
+.formInput:focus {
+  border: 1px solid #7ab6d9;
+}
+.textArea {
+  border: 1px solid #1c2c35;
+  border-radius: 8px;
+  padding: 2rem;
+  font-size: 1.6rem;
+  color: #7ab6d9;
+}
+.formSendBtn {
+  margin-top: 2rem;
+  border: 2px solid rgba(124, 201, 255, 0.41);
+  border-radius: 6px;
+  color: #ecf8ff;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  width: 80px;
+  padding: 1rem 2rem;
+}

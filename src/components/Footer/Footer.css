@@ -1,0 +1,19 @@
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #B8C1C7;
+    margin-bottom: 2rem;
+}
+.footerDescription {
+    font-weight: 400;
+    font-size: 14px;
+}
+.footerSocial {
+    margin-right: 2rem;
+}
+.footerSocialIcon {
+    width: 30px !important;
+    height: 30px !important;
+}

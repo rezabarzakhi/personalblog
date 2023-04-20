@@ -1,0 +1,36 @@
+.articles {
+  margin: 1rem;
+  color: #ecf8ff;
+}
+
+.articlesTitle {
+  font-weight: 700;
+  font-size: 48px;
+
+  margin-bottom: 5rem;
+}
+.articleCard {
+  margin-bottom: 10rem;
+}
+
+.articleCardDate {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7ab6d9;
+  margin-bottom: 1.8rem;
+}
+.articleCardTitle {
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 1.4rem;
+}
+.articleCarddescription {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 2.5rem;
+}
+.articleCardBtn {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7AB6D9;
+}

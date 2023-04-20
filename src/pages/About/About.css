@@ -1,0 +1,14 @@
+.about {
+  margin: 2rem;
+  color: #ecf8ff;
+}
+.aboutTitle {
+    margin: 3rem 0;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.aboutMe {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 8rem;
+}
