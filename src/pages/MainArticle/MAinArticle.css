@@ -1,28 +1,27 @@
 .mainArticle {
-    margin: 5rem 2rem;
-
+  margin: 5rem 2rem;
 }
 
 .mainArticleHeader {
-    margin: 2rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin: 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .mainArticleTitle {
-    font-size: 2.4rem;
-    font-weight: 700;
-    color: #ECF8FF;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #ecf8ff;
 }
 
 .mainArticleDate {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: #7AB6D9;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #7ab6d9;
 }
 .mainArticleDescription {
-    font-size: 1.8rem;
-    font-weight: 400;
-    color: #ECF8FF;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #ecf8ff;
 }
