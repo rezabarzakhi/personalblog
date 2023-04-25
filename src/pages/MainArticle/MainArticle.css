@@ -1,4 +1,7 @@
 .mainArticle {
+  position: absolute;
+  width: 65%;
+  top: 50px;
   margin: 5rem 2rem;
 }
 
