@@ -6,7 +6,7 @@ export default function LatestArticles() {
   const [posts, setPosts] = useState([]);
 
   const getPosts = () => {
-    fetch("http://localhost:3000/posts", {
+    fetch("https://my-json-server.typicode.com/rezabarzakhi/blog-posts/posts", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",

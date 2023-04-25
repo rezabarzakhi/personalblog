@@ -10,7 +10,7 @@ export default function MainArticle() {
     const [article , setArticle ] =useState([])
 
       const getArticle = () => {
-        fetch(`http://localhost:3000/posts/${params.articleID}`, {
+        fetch(`https://my-json-server.typicode.com/rezabarzakhi/blog-posts/posts/${params.articleID}`, {
           headers: {
             "Content-Type": "application/json",
             Accept: "application/json",
