@@ -5,15 +5,15 @@
   padding: 0;
   box-sizing: border-box;
 }
- .appBgc {
+.appBgc {
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background: radial-gradient(139.26% 139.26% at 50% -41.02%, #1c2a34 0%, #111a20 100%);
   display: flex;
   justify-content: center;
-  font-family: 'Jost', sans-serif;
-} 
+  font-family: "Jost", sans-serif;
+}
 .container {
   width: 70%;
-margin: auto;
-} 
+  margin: auto;
+}
