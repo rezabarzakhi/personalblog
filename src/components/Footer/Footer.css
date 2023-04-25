@@ -5,6 +5,8 @@
     align-items: center;
     color: #B8C1C7;
     margin-bottom: 2rem;
+    bottom: 0;
+
 }
 .footerDescription {
     font-weight: 400;
