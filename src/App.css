@@ -10,10 +10,10 @@
   height: 100vh;
   background: radial-gradient(139.26% 139.26% at 50% -41.02%, #1c2a34 0%, #111a20 100%);
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   font-family: "Jost", sans-serif;
 }
 .container {
   width: 70%;
-  margin: auto;
+  margin: 0px auto;
 }
