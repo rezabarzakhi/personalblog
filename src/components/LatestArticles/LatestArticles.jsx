@@ -4,6 +4,7 @@ import "./LatestArticles.css";
 
 export default function LatestArticles() {
   const [posts, setPosts] = useState([]);
+  const [loaded, setLoaded] = useState(true);
 
   const getPosts = () => {
     fetch("https://my-json-server.typicode.com/rezabarzakhi/blog-posts/posts", {
@@ -15,6 +16,7 @@ export default function LatestArticles() {
       .then((res) => res.json())
       .then((data) => {
         setPosts(data);
+        setLoaded(false);
       });
   };
 
@@ -26,6 +28,12 @@ export default function LatestArticles() {
     <>
       <div className="latestArticles">
         <h1 className="latestArticlesTitle">Latest Articles</h1>
+        {loaded && (
+          <div className="loading">
+            <h1>Loading ...</h1>
+            <div class="lds-dual-ring"></div>
+          </div>
+        )}
         {posts.map((post) => (
           <div key={post.id} className="latestArticlesPost">
             <Link to={`/article/${post.id}`}>
