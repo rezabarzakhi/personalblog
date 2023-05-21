@@ -31,7 +31,7 @@ export default function LatestArticles() {
         {loaded && (
           <div className="loading">
             <h1>Loading ...</h1>
-            <div class="lds-dual-ring"></div>
+            <div className="lds-dual-ring"></div>
           </div>
         )}
         {posts.map((post) => (

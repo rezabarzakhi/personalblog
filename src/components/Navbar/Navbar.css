@@ -1,12 +1,10 @@
-.navbar
-.navbarWarpper {
+.navbar .navbarWarpper {
   /* width: 70vw; */
   height: 5rem;
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
-
-
+  z-index: 9999999;
 }
 
 .navbar a {
@@ -20,4 +18,37 @@
 .navbarRight a.active {
   border: 2px solid rgba(124, 201, 255, 0.41);
   border-radius: 6px;
+}
+
+.menuIcon {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar a {
+    font-size: 1.4rem;
+  }
+  .navbarRight a {
+    display: none;
+  }
+  .navbarRight.isActive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbarRight {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbarRight .menuIcon {
+    display: block;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+  }
+  .navbarRight.isActive .menuIcon {
+    position: absolute;
+    top : 3rem;
+    right: 3rem;
+  }
 }
