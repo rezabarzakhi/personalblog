@@ -13,6 +13,7 @@
   font-weight: 700;
   font-size: 1.8rem;
   padding: 0.5rem 1.3rem;
+  z-index: 9999999;
 }
 
 .navbarRight a.active {
@@ -48,7 +49,7 @@
   }
   .navbarRight.isActive .menuIcon {
     position: absolute;
-    top : 3rem;
+    top: 3rem;
     right: 3rem;
   }
 }
