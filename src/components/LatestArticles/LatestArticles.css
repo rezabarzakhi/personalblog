@@ -5,7 +5,7 @@
 }
 .latestArticlesTitle {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 2.4rem;
   margin-bottom: 4rem;
 }
 .latestArticlesPost {
@@ -13,11 +13,27 @@
 }
 .latestsArticlesPostTitle {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.8rem;
   margin-bottom: 0.5rem;
 }
 .latestsArticlesPostDate {
   color: #5e8ca7;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .latestArticles {
+    margin-top: 2rem;
+  }
+  .latestArticlesTitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .latestArticlesPost {
+    margin-bottom: 1.2rem;
+  }
+  .latestsArticlesPostTitle {
+    font-size: 1.6rem;
+  }
 }

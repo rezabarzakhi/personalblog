@@ -28,18 +28,15 @@
 @media screen and (max-width: 480px) {
   .navbar a {
     font-size: 1.4rem;
+    margin-right: 3rem;
   }
   .navbarRight a {
     display: none;
   }
-  .navbarRight.isActive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
   .navbarRight {
     display: flex;
     flex-direction: column;
+    transition: all 0.3s ease-in-out;
   }
   .navbarRight .menuIcon {
     display: block;
@@ -47,9 +44,18 @@
     right: 0;
     cursor: pointer;
   }
+
+  .navbarRight.isActive {
+        margin-top: 2rem;
+  }
+  .navbarRight.isActive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
   .navbarRight.isActive .menuIcon {
     position: absolute;
-    top: 3rem;
-    right: 3rem;
+    top: 3.5rem;
+    right: 0.2rem;
   }
 }

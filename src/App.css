@@ -60,3 +60,9 @@ body {
   font-weight: 600;
   margin-right: 2rem;
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+}

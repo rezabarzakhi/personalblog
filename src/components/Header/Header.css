@@ -29,7 +29,6 @@
 .header-socials {
   margin-top: 2rem;
   color: #ecf8ff;
-
 }
 .socialBtn {
   padding: 0.2rem 1rem;
@@ -39,9 +38,9 @@
   margin-right: 1rem;
 }
 .socialIcon {
-    width: 2rem;
-    height: 2rem;
-    margin-right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
 }
 
 .twitter {
@@ -49,6 +48,22 @@
 }
 
 .gitHub {
-    background-color: #ecf8ff;
-    color: #000;
+  background-color: #ecf8ff;
+  color: #000;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    width: 80vw;
+  }
+  .header-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .header-title h1 {
+    font-size: 2.4rem ;
+  }
+  .header-discribe p {
+    font-size: 1.4rem;
+  }
 }
