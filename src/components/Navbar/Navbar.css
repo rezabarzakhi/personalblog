@@ -29,6 +29,7 @@
   .navbar a {
     font-size: 1.4rem;
     margin-right: 3rem;
+   
   }
   .navbarRight a {
     display: none;
@@ -47,6 +48,7 @@
 
   .navbarRight.isActive {
         margin-top: 2rem;
+
   }
   .navbarRight.isActive a {
     float: none;
